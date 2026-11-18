@@ -7,9 +7,10 @@ Everything Claude writes for you lives here, one folder per purpose.
 | `plans/<Ticket-ID>/` | One folder per ticket: `ticket-plan.md`, PR drafts, any other file for that ticket. |
 | `memory/` | Lessons that carry across tickets. See `memory/README.md`. |
 | `communication/` | Dated feedback notes, created on first use. |
-| `skills/` | Symlink to `~/.claude/skills/`. |
+| `skills/` | The skills. `~/.claude/skills` is a symlink to this folder. |
+| `CLAUDE.md` | The rules Claude follows. `~/.claude/CLAUDE.md` is a symlink to this file. |
 
-The rules Claude follows are in `~/.claude/CLAUDE.md`.
+Both are versioned in this repo, so edit them here. `plans/` is git-ignored.
 
 ## Start of a ticket
 
