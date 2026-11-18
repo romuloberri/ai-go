@@ -26,18 +26,6 @@ Five recurring risks to watch for:
 
 ## Case-derived patterns
 
-- **A context link becomes the task definition**
-  - Trigger: Earlier PRs, logs, or dashboards arrive with a new ticket.
-  - Missed: The current title and acceptance criteria define scope; links may only show examples or constraints.
-  - Ask: “Am I solving the current request, or the linked example?”
-  - Related heuristic: Ticket anchor before context.
-
-- **Structural checks run only after the implementation is large**
-  - Trigger: Tests and formatting pass while a command or service has accumulated branches and responsibilities.
-  - Missed: Complexity and static gates assess risks that behavior tests do not.
-  - Ask: “Could I run the repository's structural check on this first coherent slice?”
-  - Related heuristic: Run structural gates at the capability boundary.
-
 - **An analyzer warning is fixed from a guessed cause**
   - Trigger: Runtime tests pass, but an IDE or static tool still reports an error.
   - Missed: The exact message, highlighted expression, and reporting tool were not captured.

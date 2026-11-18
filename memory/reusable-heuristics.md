@@ -14,7 +14,7 @@ Add a new rule only when the same decision is likely to recur. If it is a one-ti
 ## Core execution rules
 
 - Prefer the smallest safe change that solves the root problem.
-- Change documentation only when the task, changed behavior or contract, or repository policy requires it. Update the fewest relevant files and sections with the minimum accurate change; avoid unrelated rewrites.
+- On documentation. Update the fewest relevant files and sections with the minimum accurate change; avoid unrelated rewrites.
 - Name boundaries explicitly before adding abstractions.
 - Choose the test that buys the most confidence first.
 - Treat rollout and rollback as part of implementation, not post-work.
